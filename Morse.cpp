@@ -112,6 +112,25 @@ uint16_t Morse::encode(uint8_t character) {
     case 89: return 0b11101;      // Y
     case 90: return 0b10011;      // Z
 
+    // Scandinavian and Icelandic/Faroese characters
+    // Norwegian/Danish characters
+    case 198: return 0b11010;     // Æ
+    case 216: return 0b10111;     // Ø
+    case 197: return 0b110110;    // Å
+
+    // Swedish characters (including Å above)
+    case 196: return 0b11010;     // Ä
+    case 214: return 0b10111;     // Ö
+
+    // Icelandic/Faroese characters
+    case 193: return 0b110110;    // Á
+    case 208: return 0b110011;    // Ð
+    case 222: return 0b100110;    // Þ
+    case 201: return 0b100110;    // É
+    case 205: return 0b101110;    // Í
+    case 211: return 0b1111;      // Ó
+    case 218: return 0b11100;     // Ú
+    
     case 95: return 0b1101100;    // _
 
     default: return 0b100000000;  // INVALID OR ERROR
