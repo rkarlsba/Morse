@@ -19,7 +19,7 @@ print	KEYWORD2
 println	KEYWORD2
 read	KEYWORD2
 receiver	KEYWORD2
-transmiter	KEYWORD2
+transmitter	KEYWORD2
 
 ##################################################
 # Constants				(LITERAL1)

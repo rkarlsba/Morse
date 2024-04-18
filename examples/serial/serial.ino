@@ -11,7 +11,7 @@ void receiver(char e) {
   delay(50);
 }
 
-void transmiter(uint8_t e) {
+void transmitter(uint8_t e) {
   // transmitting a message (tag by tag)
 
   s += String(e);
@@ -33,7 +33,7 @@ void setup() {
   // put your setup code here, to run once:
 
   Serial.begin(9600);
-  morse.begin(receiver, transmiter);
+  morse.begin(receiver, transmitter);
 
   Serial.println("-- PRINT MESSAGE WITHOUT EOL --");
   morse.print("se<n");

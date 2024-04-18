@@ -24,7 +24,7 @@ class Morse {
 
     uint16_t _buffer = 1;
 
-    morsePointer _receiver, _transmiter;
+    morsePointer _receiver, _transmitter;
 
     uint8_t clear(uint8_t label);
     uint8_t count(uint16_t value);
@@ -45,7 +45,7 @@ class Morse {
     void println(String data);
     String read(String data);
     void receiver(morsePointer pointer);
-    void transmiter(morsePointer pointer);
+    void transmitter(morsePointer pointer);
 };
 
 #endif
