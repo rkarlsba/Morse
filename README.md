@@ -1,6 +1,10 @@
 # Morse
 Morse code class for Arduino
 
-# TESTED ON
+# Acknowledgements
+Original code by [offcircuit](https://github.com/offcircuit). Forked by
+[Roy Sigurd Karlsbakk](mailto:roy@karlsbakk.net) to add Nordic language
+support.
 
-arduino uno
+# TESTED ON
+Arduino Uno
